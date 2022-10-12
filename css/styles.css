@@ -64,6 +64,11 @@ body {
 /* MAIN */
 
 /* банер */
+
+.banner {
+	background-color: #2f303a;
+}
+
 .title-h1 {
 	font-size: 44px;
 	line-height: 60px;
@@ -147,6 +152,10 @@ body {
 }
 
 /* FOOTER */
+
+.footer {
+	background-color: #2f303a;
+}
 
 .home {
 	font-size: 14px;

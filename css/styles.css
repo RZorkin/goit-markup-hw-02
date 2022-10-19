@@ -9,15 +9,16 @@ body {
 /* HEADER */
 
 /* навігація */
-.logo-link,
-.logo-header {
+.logo-blue,
+.logo-black {
 	font-family: "Raleway";
 	font-size: 26px;
 	line-height: 1.19;
+	text-decoration: none;
 	color: #2196f3;
 }
 
-.logo-header {
+.logo-black {
 	color: #000000;
 }
 
@@ -103,8 +104,17 @@ body {
 /* особливості */
 
 /* прихований заголовок */
-.hide {
-	visibility: hidden;
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
 }
 
 .title-h3 {
@@ -144,6 +154,10 @@ body {
 }
 
 /* FOOTER */
+
+.logo-white {
+	color: #ffffff;
+}
 
 .footer {
 	background-color: #2f303a;
